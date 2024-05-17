@@ -1,4 +1,5 @@
-let a = prompt("nhập giá trị")
+function hienThiTong(){
+    let a = prompt("nhập giá trị")
     b = prompt("nhập giá trị")
     a = parseFloat(a);
     b = parseFloat(b);
@@ -6,3 +7,4 @@ let a = prompt("nhập giá trị")
     console.log(h);
         document.write(h)
         alert(h)
+    }
